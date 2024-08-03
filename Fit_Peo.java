@@ -56,6 +56,7 @@ public class Fit_Peo {
 		check_box.get(1).click();
 		check_box.get(2).click();
 		check_box.get(7).click();
+		// Again Scrolling Up
 		js.executeScript("window.scrollTo(0,-100)");
 		String actual_Total_Gross_evenue_Per_Year = driver
 				.findElement(By.xpath("//h3[@class='MuiTypography-root MuiTypography-h3 crimsonPro css-k7aeh2']"))
